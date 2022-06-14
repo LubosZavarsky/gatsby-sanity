@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Glegoo', serif;
+}
+
+p {
+  padding: 0.5rem 0;
+}
+
+section {
+  padding: 1rem;
+}
+
+.active {
+  text-decoration: underline;
+}
